@@ -1,0 +1,84 @@
+        Deep Learning Parameters        
+----------------------------------------
+Hidden Dim: 32
+Num Layers: 3
+Batch Size: 64
+Learning Rate: 0.0001
+----------------------------------------
+   Traditional Classifier Parameters    
+----------------------------------------
+n_estimators: 100
+========================================
+===== Average Performance Per Subject Across Datasets =====
+Subject   Model                    Train Acc Test Acc  Precision Recall    F1-Score  
+================================================================================
+1         traditional_metrics       100.00    69.98     0.7331    0.6998    0.6844    
+1         deep_learning_metrics     65.49     55.35     0.5667    0.5535    0.5346    
+1         traditional_LDA_metrics   100.00    63.87     0.6745    0.6387    0.6281    
+1         deep_learning_LDA_metrics 64.74     56.19     0.5513    0.5619    0.5324    
+2         traditional_metrics       100.00    60.65     0.6494    0.6065    0.5972    
+2         deep_learning_metrics     65.53     50.44     0.5262    0.5044    0.4889    
+2         traditional_LDA_metrics   100.00    53.84     0.5783    0.5384    0.5318    
+2         deep_learning_LDA_metrics 66.17     50.55     0.5204    0.5055    0.4904    
+3         traditional_metrics       100.00    61.51     0.6790    0.6151    0.6111    
+3         deep_learning_metrics     66.90     46.66     0.4873    0.4666    0.4519    
+3         traditional_LDA_metrics   100.00    56.81     0.6306    0.5681    0.5636    
+3         deep_learning_LDA_metrics 66.29     45.98     0.4962    0.4598    0.4515    
+4         traditional_metrics       100.00    73.20     0.7502    0.7320    0.7229    
+4         deep_learning_metrics     66.08     55.13     0.5563    0.5513    0.5367    
+4         traditional_LDA_metrics   100.00    62.61     0.6388    0.6261    0.6142    
+4         deep_learning_LDA_metrics 65.91     55.62     0.5620    0.5562    0.5393    
+5         traditional_metrics       100.00    65.10     0.6531    0.6510    0.6230    
+5         deep_learning_metrics     65.35     55.75     0.5455    0.5575    0.5338    
+5         traditional_LDA_metrics   100.00    59.72     0.6050    0.5972    0.5760    
+5         deep_learning_LDA_metrics 66.25     53.62     0.5351    0.5362    0.5111    
+6         traditional_metrics       100.00    64.54     0.6815    0.6454    0.6238    
+6         deep_learning_metrics     66.24     54.85     0.5571    0.5485    0.5303    
+6         traditional_LDA_metrics   100.00    62.17     0.6605    0.6217    0.6047    
+6         deep_learning_LDA_metrics 65.45     55.98     0.5557    0.5598    0.5411    
+7         traditional_metrics       100.00    68.88     0.6948    0.6888    0.6730    
+7         deep_learning_metrics     64.22     57.26     0.5733    0.5726    0.5542    
+7         traditional_LDA_metrics   100.00    66.57     0.6772    0.6657    0.6524    
+7         deep_learning_LDA_metrics 64.59     59.53     0.5991    0.5953    0.5778    
+8         traditional_metrics       100.00    69.98     0.7399    0.6998    0.6970    
+8         deep_learning_metrics     64.86     53.98     0.5599    0.5398    0.5273    
+8         traditional_LDA_metrics   100.00    62.71     0.6659    0.6271    0.6217    
+8         deep_learning_LDA_metrics 65.65     53.79     0.5555    0.5379    0.5247    
+9         traditional_metrics       100.00    68.28     0.7205    0.6828    0.6821    
+9         deep_learning_metrics     65.52     51.87     0.5414    0.5187    0.5103    
+9         traditional_LDA_metrics   100.00    60.04     0.6497    0.6004    0.5974    
+9         deep_learning_LDA_metrics 65.32     50.06     0.5176    0.5006    0.4837    
+10        traditional_metrics       100.00    60.48     0.6496    0.6048    0.5958    
+10        deep_learning_metrics     65.46     50.61     0.5259    0.5061    0.4882    
+10        traditional_LDA_metrics   100.00    60.08     0.6381    0.6008    0.5855    
+10        deep_learning_LDA_metrics 65.48     50.85     0.5018    0.5085    0.4829    
+
+===== Average Performance Per Dataset =====
+Dataset                 Model                Train Acc Test Acc  Precision Recall    F1-Score  
+==========================================================================================
+Taiji_dataset_100.csv traditional_metrics       100.00    69.64     0.7547    0.6964    0.6935    
+Taiji_dataset_100.csv deep_learning_metrics     73.11     62.50     0.6366    0.6250    0.6063    
+Taiji_dataset_100.csv traditional_LDA_metrics   100.00    67.04     0.7353    0.6704    0.6662    
+Taiji_dataset_100.csv deep_learning_LDA_metrics 73.32     63.23     0.6373    0.6323    0.6112    
+Taiji_dataset_200.csv traditional_metrics       100.00    66.00     0.6823    0.6600    0.6435    
+Taiji_dataset_200.csv deep_learning_metrics     64.03     50.86     0.5244    0.5086    0.4939    
+Taiji_dataset_200.csv traditional_LDA_metrics   100.00    59.26     0.6155    0.5926    0.5801    
+Taiji_dataset_200.csv deep_learning_LDA_metrics 63.50     50.21     0.5146    0.5021    0.4853    
+Taiji_dataset_300.csv traditional_metrics       100.00    63.14     0.6484    0.6314    0.6160    
+Taiji_dataset_300.csv deep_learning_metrics     59.56     46.21     0.4709    0.4621    0.4467    
+Taiji_dataset_300.csv traditional_LDA_metrics   100.00    56.23     0.5747    0.5623    0.5463    
+Taiji_dataset_300.csv deep_learning_LDA_metrics 59.93     46.21     0.4665    0.4621    0.4440    
+
+===== Average Performance Across All Subjects =====
+            Model  Train Acc  Test Acc  Precision  Recall  F1-Score
+    DEEP_LEARNING     65.565    53.190    0.54396 0.53190   0.51562
+DEEP_LEARNING_LDA     65.585    53.217    0.53947 0.53217   0.51349
+      TRADITIONAL    100.000    66.260    0.69511 0.66260   0.65103
+  TRADITIONAL_LDA    100.000    60.842    0.64186 0.60842   0.59754
+
+===== Average Performance Across All Datasets =====
+            Model  Train Acc  Test Acc  Precision   Recall  F1-Score
+    DEEP_LEARNING  65.565385 53.190000   0.543962 0.531900  0.515623
+DEEP_LEARNING_LDA  65.584615 53.216923   0.539469 0.532169  0.513492
+      TRADITIONAL 100.000000 66.260000   0.695115 0.662600  0.651023
+  TRADITIONAL_LDA 100.000000 60.842308   0.641854 0.608423  0.597538
