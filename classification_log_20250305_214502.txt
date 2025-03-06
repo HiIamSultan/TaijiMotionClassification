@@ -1,0 +1,473 @@
+Logging terminal output to classification_log_20250305_214502.txt...
+
+
+========== Running RandomForest_Without_Fisher ==========
+
+Processing Dataset: Taiji_dataset_100.csv
+
+Processing Subject 1...
+Top 32 discriminative features: [26 46 44 41 38 29 14 12 45 42 25 58 60 37 22 34 40 18 16 33  9 21 30 54
+  1 56 52 32 55 28 13 59]
+
+Dataset Loaded: Taiji_dataset_100.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 69347
+	# of Testing Samples: 7740
+Train Accuracy: 100.00% | Test Accuracy: 70.79%
+Precision: 0.7641 | Recall: 0.7079 | F1-Score: 0.6944
+
+Processing Subject 2...
+Top 32 discriminative features: [26 46 44 41 38 29 14 12 45 58 60 22 18 16 42 25 37  9 21 40 33 54 30 56
+ 52  1 55 28 48 50 34 59]
+
+Dataset Loaded: Taiji_dataset_100.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 69314
+	# of Testing Samples: 7773
+Train Accuracy: 100.00% | Test Accuracy: 62.46%
+Precision: 0.7079 | Recall: 0.6246 | F1-Score: 0.6242
+
+Processing Subject 3...
+Top 32 discriminative features: [26 46 44 38 41 29 14 12 45 22 58 60 42 18 16  9 40 21 54 56 33 25 37 52
+  1 30 55 34 28 59 48 10]
+
+Dataset Loaded: Taiji_dataset_100.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 69381
+	# of Testing Samples: 7706
+C:\Users\mqm7099\.conda\envs\tl_env\lib\site-packages\sklearn\metrics\_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Train Accuracy: 100.00% | Test Accuracy: 67.38%
+Precision: 0.7802 | Recall: 0.6738 | F1-Score: 0.6824
+
+Processing Subject 4...
+Top 32 discriminative features: [26 46 44 41 38 29 14 12 45 42 58 60 22  9 40 18 16 33 21 25 37 52 30 54
+ 56  1 55 34 28 48 50 59]
+
+Dataset Loaded: Taiji_dataset_100.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 69440
+	# of Testing Samples: 7647
+Train Accuracy: 100.00% | Test Accuracy: 81.13%
+Precision: 0.8412 | Recall: 0.8113 | F1-Score: 0.8077
+
+Processing Subject 5...
+Top 32 discriminative features: [26 46 44 41 38 29 14 12 58 45 60 42 18 16 22 40 25 37  9 33 21 52 54 56
+ 30  1 55 34 28 59 48 50]
+
+Dataset Loaded: Taiji_dataset_100.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 69312
+	# of Testing Samples: 7775
+Train Accuracy: 100.00% | Test Accuracy: 68.63%
+Precision: 0.6848 | Recall: 0.6863 | F1-Score: 0.6551
+
+Processing Subject 6...
+Top 32 discriminative features: [26 46 44 41 29 38 14 37 25 12 45 42 22 33 18 58 16 60  9 40 21 30 52 55
+ 54 56  1 28 59 34 49 13]
+
+Dataset Loaded: Taiji_dataset_100.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 69357
+	# of Testing Samples: 7730
+C:\Users\mqm7099\.conda\envs\tl_env\lib\site-packages\sklearn\metrics\_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Train Accuracy: 100.00% | Test Accuracy: 67.98%
+Precision: 0.7447 | Recall: 0.6798 | F1-Score: 0.6607
+
+Processing Subject 7...
+Top 32 discriminative features: [26 46 44 41 29 38 14 12 45 42 18 58 60 16 22 25 37 40 33  9 21 30 52 54
+ 56 34  1 55 28 59 48 50]
+
+Dataset Loaded: Taiji_dataset_100.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 69287
+	# of Testing Samples: 7800
+Train Accuracy: 100.00% | Test Accuracy: 77.33%
+Precision: 0.7932 | Recall: 0.7733 | F1-Score: 0.7646
+
+Processing Subject 8...
+Top 32 discriminative features: [26 46 44 41 29 38 14 12 45 42 58 60 18 16 22 25 37 40  9 33 21 54 56 52
+  1 30 55 34 59 28 13 48]
+
+Dataset Loaded: Taiji_dataset_100.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 69490
+	# of Testing Samples: 7597
+Train Accuracy: 100.00% | Test Accuracy: 69.70%
+Precision: 0.7714 | Recall: 0.6970 | F1-Score: 0.7058
+
+Processing Subject 9...
+C:\Users\mqm7099\.conda\envs\tl_env\lib\site-packages\sklearn\feature_selection\_univariate_selection.py:112: UserWarning: Features [ 3 15 39 43 47 57 61] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+C:\Users\mqm7099\.conda\envs\tl_env\lib\site-packages\sklearn\feature_selection\_univariate_selection.py:113: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+Top 32 discriminative features: [61 39 57  3 43 15 47 26 46 44 41 38 29 14 12 45 58 60 22 42 18 16  1 55
+ 30 40 25 52 37  9 21 54]
+
+Dataset Loaded: Taiji_dataset_100.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 69561
+	# of Testing Samples: 7526
+Train Accuracy: 100.00% | Test Accuracy: 69.27%
+Precision: 0.7595 | Recall: 0.6927 | F1-Score: 0.7008
+
+Processing Subject 10...
+Top 32 discriminative features: [26 46 44 41 29 38 14 12 45 42 22 58 60 25 18 37 16 34  9 33 40 30 21 28
+ 54 56  1 52 55 32 59 48]
+
+Dataset Loaded: Taiji_dataset_100.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 69294
+	# of Testing Samples: 7793
+C:\Users\mqm7099\.conda\envs\tl_env\lib\site-packages\sklearn\metrics\_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Train Accuracy: 100.00% | Test Accuracy: 64.39%
+Precision: 0.7324 | Recall: 0.6439 | F1-Score: 0.6516
+
+Processing Dataset: Taiji_dataset_200.csv
+
+Processing Subject 1...
+Top 32 discriminative features: [26 38 46 44 14 12 41 29 18 42 16 40 25 37 30 22 45 34 33 63 61 32 28 21
+  9 59 57 49 51 20  1 10]
+
+Dataset Loaded: Taiji_dataset_200.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 115797
+	# of Testing Samples: 13778
+Train Accuracy: 100.00% | Test Accuracy: 73.08%
+Precision: 0.7631 | Recall: 0.7308 | F1-Score: 0.7213
+
+Processing Subject 2...
+Top 32 discriminative features: [26 38 46 44 41 14 12 29 18 16 42 30 22 40 25 37 45 63 61 21 33 28  9 49
+ 34 51 59 57  2  0 32 20]
+
+Dataset Loaded: Taiji_dataset_200.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 117088
+	# of Testing Samples: 12487
+Train Accuracy: 100.00% | Test Accuracy: 62.88%
+Precision: 0.6469 | Recall: 0.6288 | F1-Score: 0.6162
+
+Processing Subject 3...
+Top 32 discriminative features: [26 38 46 44 14 41 12 29 18 16 42 40 30 22 45 25 37 63 61 34 33 21 28  9
+ 32 59 57 49 51 20  2  0]
+
+Dataset Loaded: Taiji_dataset_200.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 117783
+	# of Testing Samples: 11792
+Train Accuracy: 100.00% | Test Accuracy: 60.07%
+Precision: 0.6531 | Recall: 0.6007 | F1-Score: 0.5889
+
+Processing Subject 4...
+Top 32 discriminative features: [26 38 46 44 29 41 14 12 18 16 42 40 45 22 30 37 25 33 63 61 34 21  9 28
+ 32 49 59 51 57 20  2  0]
+
+Dataset Loaded: Taiji_dataset_200.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 116815
+	# of Testing Samples: 12760
+Train Accuracy: 100.00% | Test Accuracy: 68.97%
+Precision: 0.7118 | Recall: 0.6897 | F1-Score: 0.6733
+
+Processing Subject 5...
+Top 32 discriminative features: [26 38 46 44 14 12 41 29 18 16 42 40 22 30 25 37 63 61 45 33 21 59 57 34
+ 28 49 51  9 32  2  0 20]
+
+Dataset Loaded: Taiji_dataset_200.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 115718
+	# of Testing Samples: 13857
+C:\Users\mqm7099\.conda\envs\tl_env\lib\site-packages\sklearn\metrics\_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Train Accuracy: 100.00% | Test Accuracy: 62.24%
+Precision: 0.6107 | Recall: 0.6224 | F1-Score: 0.5937
+
+Processing Subject 6...
+Top 32 discriminative features: [26 38 46 44 14 12 41 29 25 37 18 16 42 40 30 22 45 63 61 28 34 33 21  9
+ 32 59 57  2  0 49 51 20]
+
+Dataset Loaded: Taiji_dataset_200.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 115812
+	# of Testing Samples: 13763
+C:\Users\mqm7099\.conda\envs\tl_env\lib\site-packages\sklearn\metrics\_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Train Accuracy: 100.00% | Test Accuracy: 65.27%
+Precision: 0.6749 | Recall: 0.6527 | F1-Score: 0.6222
+
+Processing Subject 7...
+C:\Users\mqm7099\.conda\envs\tl_env\lib\site-packages\sklearn\feature_selection\_univariate_selection.py:112: UserWarning: Features [48 52] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+C:\Users\mqm7099\.conda\envs\tl_env\lib\site-packages\sklearn\feature_selection\_univariate_selection.py:113: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+Top 32 discriminative features: [48 52 26 38 46 44 14 12 41 29 18 16 42 40 45 25 37 30 22 63 61 33 34 28
+ 21  9 59 57 32 49 51  2]
+
+Dataset Loaded: Taiji_dataset_200.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 115853
+	# of Testing Samples: 13722
+Train Accuracy: 100.00% | Test Accuracy: 69.33%
+Precision: 0.6889 | Recall: 0.6933 | F1-Score: 0.6759
+
+Processing Subject 8...
+Top 32 discriminative features: [26 38 46 44 14 12 41 29 18 16 42 40 25 37 22 45 30 63 61 33 34 21 59 28
+  9 57 32 49 51  1  2  0]
+
+Dataset Loaded: Taiji_dataset_200.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 117979
+	# of Testing Samples: 11596
+Train Accuracy: 100.00% | Test Accuracy: 70.38%
+Precision: 0.7516 | Recall: 0.7038 | F1-Score: 0.6963
+
+Processing Subject 9...
+C:\Users\mqm7099\.conda\envs\tl_env\lib\site-packages\sklearn\feature_selection\_univariate_selection.py:112: UserWarning: Features [ 3 15 60 64] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+C:\Users\mqm7099\.conda\envs\tl_env\lib\site-packages\sklearn\feature_selection\_univariate_selection.py:113: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+Top 32 discriminative features: [64 60  3 15 26 38 46 44 14 12 41 29 18 16 30 42 40 22 63 28 25 37 61 45
+ 34 33 21 59 57  9  1 49]
+
+Dataset Loaded: Taiji_dataset_200.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 117605
+	# of Testing Samples: 11970
+Train Accuracy: 100.00% | Test Accuracy: 68.41%
+Precision: 0.7107 | Recall: 0.6841 | F1-Score: 0.6763
+
+Processing Subject 10...
+Top 32 discriminative features: [26 38 46 44 41 29 14 12 18 16 42 30 40 25 37 34 22 45 33 28 63 61 32  9
+ 21 59 57 49 51 20  1  2]
+
+Dataset Loaded: Taiji_dataset_200.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 115725
+	# of Testing Samples: 13850
+Train Accuracy: 100.00% | Test Accuracy: 61.47%
+Precision: 0.6467 | Recall: 0.6147 | F1-Score: 0.5956
+
+Processing Dataset: Taiji_dataset_300.csv
+
+Processing Subject 1...
+Top 32 discriminative features: [26 38 46 44 14 12 42 40 41 18 16 29 30 45 22 63 61 28 59 57 37 25  2  0
+ 49 51 10 20  6  4  9 33]
+
+Dataset Loaded: Taiji_dataset_300.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 131441
+	# of Testing Samples: 16648
+Train Accuracy: 100.00% | Test Accuracy: 66.89%
+Precision: 0.6689 | Recall: 0.6689 | F1-Score: 0.6460
+
+Processing Subject 2...
+Top 32 discriminative features: [26 38 46 44 14 12 41 18 42 16 40 22 29 30 45 63 61  2  0 49 51 28 59 57
+ 21 20  9 10 37 25 33  6]
+
+Dataset Loaded: Taiji_dataset_300.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 134318
+	# of Testing Samples: 13771
+Train Accuracy: 100.00% | Test Accuracy: 56.34%
+Precision: 0.6021 | Recall: 0.5634 | F1-Score: 0.5496
+
+Processing Subject 3...
+Top 32 discriminative features: [26 38 46 44 14 12 41 42 18 40 16 29 22 30 45 63 61 28 59 57 49 51  2  0
+ 20  9 21 37 25 10  6 33]
+
+Dataset Loaded: Taiji_dataset_300.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 135745
+	# of Testing Samples: 12344
+C:\Users\mqm7099\.conda\envs\tl_env\lib\site-packages\sklearn\metrics\_classification.py:1531: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Train Accuracy: 100.00% | Test Accuracy: 56.93%
+Precision: 0.6001 | Recall: 0.5693 | F1-Score: 0.5572
+
+Processing Subject 4...
+Top 32 discriminative features: [26 38 46 44 14 12 41 18 42 16 40 29 30 45 22 63 61 28 49 51 59 57  2  0
+ 37 25 20  9 21 10 33  6]
+
+Dataset Loaded: Taiji_dataset_300.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 134144
+	# of Testing Samples: 13945
+Train Accuracy: 100.00% | Test Accuracy: 70.75%
+Precision: 0.7300 | Recall: 0.7075 | F1-Score: 0.7038
+
+Processing Subject 5...
+Top 32 discriminative features: [26 38 46 44 14 12 18 42 41 16 40 30 22 45 29 63 61 49 51 28  2 59  0 57
+ 20 37 25  9 10  6 21  4]
+
+Dataset Loaded: Taiji_dataset_300.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 131018
+	# of Testing Samples: 17071
+C:\Users\mqm7099\.conda\envs\tl_env\lib\site-packages\sklearn\metrics\_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Train Accuracy: 100.00% | Test Accuracy: 64.27%
+Precision: 0.6280 | Recall: 0.6427 | F1-Score: 0.6156
+
+Processing Subject 6...
+Top 32 discriminative features: [26 38 46 44 14 12 18 42 41 16 40 30 22 29 45 28 37 25 63 61  2  0 59 57
+ 20  9 49 51 10 21  6  4]
+
+Dataset Loaded: Taiji_dataset_300.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 131968
+	# of Testing Samples: 16121
+Train Accuracy: 100.00% | Test Accuracy: 60.63%
+Precision: 0.6488 | Recall: 0.6063 | F1-Score: 0.5846
+
+Processing Subject 7...
+C:\Users\mqm7099\.conda\envs\tl_env\lib\site-packages\sklearn\feature_selection\_univariate_selection.py:112: UserWarning: Features [39 43 47 48 52] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+C:\Users\mqm7099\.conda\envs\tl_env\lib\site-packages\sklearn\feature_selection\_univariate_selection.py:113: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+Top 32 discriminative features: [43 39 47 48 52 26 38 46 44 14 12 18 41 16 42 40 45 29 30 22 63 61 28 59
+ 57  2  0 49 51 37 25 10]
+
+Dataset Loaded: Taiji_dataset_300.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 132018
+	# of Testing Samples: 16071
+Train Accuracy: 100.00% | Test Accuracy: 61.27%
+Precision: 0.5985 | Recall: 0.6127 | F1-Score: 0.5869
+
+Processing Subject 8...
+Top 32 discriminative features: [26 38 46 44 14 12 18 42 41 16 40 29 22 45 30 63 61 28 59 57 49 51  2  0
+ 25 37 20 10 21  9 33  6]
+
+Dataset Loaded: Taiji_dataset_300.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 135546
+	# of Testing Samples: 12543
+C:\Users\mqm7099\.conda\envs\tl_env\lib\site-packages\sklearn\metrics\_classification.py:1531: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Train Accuracy: 100.00% | Test Accuracy: 70.95%
+Precision: 0.7217 | Recall: 0.7095 | F1-Score: 0.7018
+
+Processing Subject 9...
+Top 32 discriminative features: [26 38 46 44 14 12 18 42 16 41 40 30 22 29 28 63 61 45 59 57  2  0 49 51
+ 20  9 10 21 37 25 33  6]
+
+Dataset Loaded: Taiji_dataset_300.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 135138
+	# of Testing Samples: 12951
+C:\Users\mqm7099\.conda\envs\tl_env\lib\site-packages\sklearn\metrics\_classification.py:1531: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Train Accuracy: 100.00% | Test Accuracy: 67.68%
+Precision: 0.6878 | Recall: 0.6768 | F1-Score: 0.6708
+
+Processing Subject 10...
+Top 32 discriminative features: [26 38 46 44 14 12 41 42 18 40 16 29 30 45 22 28 63 61 59 57  9  2 49  0
+ 51 37 25 21 10 20  6  4]
+
+Dataset Loaded: Taiji_dataset_300.csv
+	# of Classes: 39
+	# of Features after Selection: 32
+	# of Training Samples: 131465
+	# of Testing Samples: 16624
+Train Accuracy: 100.00% | Test Accuracy: 56.89%
+Precision: 0.5903 | Recall: 0.5689 | F1-Score: 0.5526
+
+===== Mean Test Accuracy Per Subject Across Datasets =====
+Subject   Mean Test Acc  Std Dev   
+========================================
+1         70.25          2.55      
+2         60.56          2.99      
+3         61.46          4.38      
+4         73.61          5.36      
+5         65.05          2.67      
+6         64.63          3.04      
+7         69.31          6.56      
+8         70.34          0.51      
+9         68.45          0.65      
+10        60.92          3.09      
+
+===== Mean Test Accuracy Per Class Across Datasets =====
+Class     Mean Accuracy  Std Dev   
+========================================
+0         41.32          22.42     
+1         48.34          29.28     
+2         65.26          22.11     
+3         79.33          16.37     
+4         76.42          21.43     
+5         72.65          16.64     
+6         83.29          10.70     
+7         90.96          7.16      
+8         44.80          26.86     
+9         74.98          19.62     
+10        64.11          19.03     
+11        32.19          25.90     
+12        13.62          11.90     
+13        37.94          27.44     
+14        41.06          30.40     
+15        33.12          26.97     
+16        52.35          29.02     
+17        56.29          23.27     
+18        51.18          28.80     
+19        61.66          26.13     
+20        65.71          17.16     
+21        74.32          19.76     
+22        87.19          9.57      
+23        72.08          19.83     
+24        77.06          25.36     
+25        79.55          21.45     
+26        79.06          24.38     
+27        86.64          15.39     
+28        80.56          15.22     
+29        77.58          16.99     
+30        87.61          9.95      
+31        83.38          16.83     
+32        75.61          22.16     
+33        66.08          28.17     
+34        87.81          12.01     
+35        51.73          28.58     
+36        46.47          20.97     
+37        59.52          23.17     
+38        50.50          31.95     
+
+Generating Confusion Matrices Per Subject...
+Saved confusion matrix for Subject 1.
+Saved confusion matrix for Subject 2.
+Saved confusion matrix for Subject 3.
+Saved confusion matrix for Subject 4.
+Saved confusion matrix for Subject 5.
+Saved confusion matrix for Subject 6.
+Saved confusion matrix for Subject 7.
+Saved confusion matrix for Subject 8.
+Saved confusion matrix for Subject 9.
+Saved confusion matrix for Subject 10.
